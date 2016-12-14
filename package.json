@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-abram",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "eslint-abram": "bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidAbram/eslint-config-abram.git"
+  },
+  "keywords": [
+    "eslint",
+    "rules"
+  ],
+  "author": "David Abram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidAbram/eslint-config-abram/issues"
+  },
+  "homepage": "https://github.com/DavidAbram/eslint-config-abram#readme",
+  "dependencies": {
+    "eslint": "3.12.1"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "6.2.1",
+    "json-stable-stringify": "1.0.1"
+  }
+}
