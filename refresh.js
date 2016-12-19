@@ -36,6 +36,6 @@ for (const r of rulesList) {
 standard.rules = newRules;
 standard.plugins = [];
 
-fs.writeFileSync('eslintrc.json',
+fs.writeFileSync('.eslintrc.json',
   stringify(standard, { space: 2 }) + '\n'
 );
